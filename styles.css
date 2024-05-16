@@ -1,0 +1,20 @@
+#skin-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.detail-image {
+    width: 40%;
+    max-width: 300px;
+}
+
+.info-section {
+    width: 60%;
+    padding: 20px;
+}
+
+.info-section p.description {
+    margin-top: 15px;
+}
