@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT Skin Marketplace</title>
+    <link rel="stylesheet" href="CSSSHOPVALORANT.css"> </head>
+<body>
+    <header>
+       
+        <nav>
+            <div class="logo">
+                <img src="LOGO.png" alt="Xen's Shopp Logo">
+                <h1>XenSkins HUB</h1> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="#">Shop</a></li> 
+                <li><a href="#">Sell</a></li>
+                <li><a href="SIGNUP.html">Profile</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <main>
+
+
+        <section id="hero">
+            <div class="video-container">
+              <video autoplay loop muted>
+                <source src="VALORANT VIDEO.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="content">
+              <h1>XenSkins HUB</h1>
+              <p>Welcome to our online VALORANT skin store!</p>
+              <a href="#featured-skins" id="scroll-to-skins" class="btn">Shop Now</a>
+            
+              
+
+                           
+            </div>
+            
+          </section>
+
+
+
+            
+
+            <section id="featured-skins">
+
+                <section id="search-section">
+                    <form action="#">
+                        <input type="text" id="search-bar" placeholder="Search for skins">
+                        <button type="submit">Search</button>
+                    </form>
+                </section>
+
+                <h2>Featured Bundles</h2>
+
+                
+                <div class="slider-container">
+                    <div class="slide">
+                        <img src="original.webp" alt="Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="anyone-excited-for-the-new-skin-bundle-v0-hdsnpkoulomc1.webp" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="Valorant-Reaver-Bundle.webp" alt="Image 3">
+                    </div>
+                    <button class="slide-prev" onclick="prevSlide()">&lt;</button>
+                    <button class="slide-next" onclick="nextSlide()">&gt;</button>
+                <script> var currentSlide = 0;
+
+                    function nextSlide() {
+                        var slides = document.querySelectorAll('.slide');
+                        slides[currentSlide].style.display = 'none';
+                        currentSlide = (currentSlide + 1) % slides.length;
+                        slides[currentSlide].style.display = 'block';
+                    }
+                    
+                    function prevSlide() {
+                        var slides = document.querySelectorAll('.slide');
+                        slides[currentSlide].style.display = 'none';
+                        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                        slides[currentSlide].style.display = 'block';
+                    }
+
+                    
+                    </script>
+                </div>
+
+           
+</section>
+
+
+
+            
+            <section id="featured-skins">
+                <h2>Featured Skins</h2>
+
+               
+                
+                <div class="skin-grid">  
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-reaver-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Reaver Vandal</a></h3>  <p class="skin-rarity">Premium</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-prime-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Prime Vandal</a></h3>  <p class="skin-rarity">Premium</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-aristocrat-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Aristocrat Vandal</a></h3>  <p class="skin-rarity">Deluxe</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-glitchpop-ep-2-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Glitchpop Vandal</a></h3>  <p class="skin-rarity">Premium</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Elderflame Vandal</a></h3>  <p class="skin-rarity">Ultra</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+                    
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    <div class="skin-listing">
+                        <a href="skin-detail.html">  <img src="valorant-elderflame-vandal-weapon-skin.png" alt="Skin Name">
+                        </a>
+                        <h3><a href="skin-detail.html">Skin Name</a></h3>  <p class="skin-rarity">Rarity</p> 
+                        <p class="price">PHP650.00</p> 
+                    </div>
+
+                    
+
+            </section>
+            
+    </main>
+
+    
+        <a href="#" class="back-to-top-btn">
+            <i class="fas fa-chevron-up"></i>
+            Back to the top
+          </a>
+
+<script>
+    const backToTopBtn = document.querySelector('.back-to-top-btn');
+
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 300) {
+    backToTopBtn.classList.add('show');
+  } else {
+    backToTopBtn.classList.remove('show');
+  }
+});
+
+backToTopBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+        </script>
+        <footer>
+            <div class="footer-form">
+                <h3>Contact Us</h3>
+                <form action="contact.php" method="post">
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email" required><br>
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                  <input type="submit" value="Send">
+                </form>
+                
+              </div>
+            </div>
+         
+
+            
+<div class="footer-socials">
+    <div class="footer-socials">
+        <h5>Follow Us</h5>
+        <ul>
+          <li><a href="https://www.facebook.com/" target="_blank"><img src="FACEBOOK.webp" alt="Facebook Logo"></a></li>
+          <li><a href="https://www.twitter.com/" target="_blank"><img src="TWITTER.png" alt="Twitter Logo"></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><img src="INSTAGRAM.webp" alt="Instagram Logo"></a></li>
+        </ul>
+      </div>
+
+          </div>
+        </footer>
+     </body>
+</html>
